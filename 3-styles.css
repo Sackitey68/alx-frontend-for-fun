@@ -1,0 +1,37 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+.menu-open {
+    display: none;
+}
+.menu-line {
+    display: block;
+    background: #fff;
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transition: transform 0.3s;
+}
+.menu-line-1 {
+    transform-origin: top left;
+}
+.menu-line-2 {
+    transform-origin: top center;
+}
+.menu-line-3 {
+    transform-origin: bottom left;
+}
+.menu-item {
+    display: block;
+    text-align: center;
+}
