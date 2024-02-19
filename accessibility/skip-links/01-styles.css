@@ -623,7 +623,7 @@
   @media only screen and (max-width: 767px) {
     .section-latest-news .row {
       flex-direction: column;
-OAOAOA    }
+    }
   }
   
   /* Section SERVICES
@@ -901,7 +901,7 @@
   /* Tag list
       ============================= */
   
-[O  .tag-list {
+  .tag-list {
     padding: 0;
     list-style: none;
   }
